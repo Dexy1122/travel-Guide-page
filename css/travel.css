@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    justify-content: space-between;
+}
+.btn3{
+    font-weight: bold;
+    color: white;
+    background-color: navy;
+    border: none;
+    width: 10em;
+    height: 5ex;
+    cursor: pointer;
+    border-radius: 2px;
+    padding-bottom: 1px;
+    margin-bottom: 50px;
+}
+.btn3:hover{
+    background-color: bisque;
+    color: brown;
+}
+.your{
+    background: url(../imgs/background-g32aaa4f27_1280.png);
+    color: navy;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-left: 50px;
+    position: relative;
+    padding-top: 50px;
+}
+.header{
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tr .gu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: large;
+}
+wwd.{
+    padding: 80px;
+    margin: 80px;
+    
+}
+.travel{
+    color: limegreen;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+.most{
+    text-align: center;
+}
+.house{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-brands{
+    color: navy;
+    size: 50px;
+}
+.gu{
+    color: green;
+}
+.tr{
+    color: orangered;
+}
+.what{
+    background-color: blue;
+}
+.our{
+    color: black;
+    text-align: center;
+}
+.lorem{
+    color: white;
+    text-align: center;
+}
+.pnd{
+    color: black;
+    text-align: center;
+}
+.link{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    height: 30px;
+    right: 16px;
+    
+}
+.fa-solid{
+    color:green;
+    font-size: 30px;
+}
+.fa-solid:hover{
+    color: red;
+}
+.abt{
+    text-decoration: none;
+}
+.abt:hover{
+    color: red;
+}
+.class{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navm{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+}
